@@ -3683,7 +3683,7 @@
     <CharLength>0</CharLength>
     <NumericScale>0</NumericScale>
     <NumericPrecision>0</NumericPrecision>
-    <IsPrimaryKey>false</IsPrimaryKey>
+    <IsPrimaryKey>true</IsPrimaryKey>
     <IsChecked>true</IsChecked>
     <IsCustom>true</IsCustom>
     <IsRawOnly>false</IsRawOnly>
@@ -4138,6 +4138,174 @@
     <LockedOnStaging>false</LockedOnStaging>
     <HashingAlgorithm>Default</HashingAlgorithm>
   </DataFields>
+  <DataFields>
+    <DataFieldId>735b94a7-7b6e-452e-ab53-63dcba7a96f9</DataFieldId>
+    <DataTableId>7753b7e8-3e8f-4eac-9dac-cb6e16edfbec</DataTableId>
+    <SeqNo>13</SeqNo>
+    <Name>SCD Surrogate Hash Key</Name>
+    <OrigName>SCD Surrogate Hash Key</OrigName>
+    <DataType>varbinary(20)</DataType>
+    <StagingName>SCD Surrogate Hash Key</StagingName>
+    <BaseType>varbinary</BaseType>
+    <OrigDataType>varbinary(20)</OrigDataType>
+    <CharLength>20</CharLength>
+    <NumericScale>0</NumericScale>
+    <NumericPrecision>0</NumericPrecision>
+    <IsPrimaryKey>false</IsPrimaryKey>
+    <IsChecked>true</IsChecked>
+    <IsCustom>true</IsCustom>
+    <IsRawOnly>false</IsRawOnly>
+    <FieldAggregationType>None</FieldAggregationType>
+    <ExecutionNo>0</ExecutionNo>
+    <SubTypeName>SCD Surrogate Hash Key</SubTypeName>
+    <Locked>false</Locked>
+    <LockedOnStaging>false</LockedOnStaging>
+    <HashingAlgorithm>Default</HashingAlgorithm>
+  </DataFields>
+  <DataFields>
+    <DataFieldId>05460a18-b013-43a4-997a-25c84a64a2be</DataFieldId>
+    <DataTableId>7753b7e8-3e8f-4eac-9dac-cb6e16edfbec</DataTableId>
+    <SeqNo>14</SeqNo>
+    <Name>SCD Type I Hash Key</Name>
+    <OrigName>SCD Type I Hash Key</OrigName>
+    <DataType>varbinary(20)</DataType>
+    <StagingName>SCD Type I Hash Key</StagingName>
+    <BaseType>varbinary</BaseType>
+    <OrigDataType>varbinary(20)</OrigDataType>
+    <CharLength>20</CharLength>
+    <NumericScale>0</NumericScale>
+    <NumericPrecision>0</NumericPrecision>
+    <IsPrimaryKey>false</IsPrimaryKey>
+    <IsChecked>true</IsChecked>
+    <IsCustom>true</IsCustom>
+    <IsRawOnly>false</IsRawOnly>
+    <FieldAggregationType>None</FieldAggregationType>
+    <ExecutionNo>0</ExecutionNo>
+    <SubTypeName>SCD Type I Hash Key</SubTypeName>
+    <Locked>false</Locked>
+    <LockedOnStaging>false</LockedOnStaging>
+    <HashingAlgorithm>Default</HashingAlgorithm>
+  </DataFields>
+  <DataFields>
+    <DataFieldId>8bcddb87-9db0-4804-9098-da8189e4d71f</DataFieldId>
+    <DataTableId>7753b7e8-3e8f-4eac-9dac-cb6e16edfbec</DataTableId>
+    <SeqNo>15</SeqNo>
+    <Name>SCD Type II Hash Key</Name>
+    <OrigName>SCD Type II Hash Key</OrigName>
+    <DataType>varbinary(20)</DataType>
+    <StagingName>SCD Type II Hash Key</StagingName>
+    <BaseType>varbinary</BaseType>
+    <OrigDataType>varbinary(20)</OrigDataType>
+    <CharLength>20</CharLength>
+    <NumericScale>0</NumericScale>
+    <NumericPrecision>0</NumericPrecision>
+    <IsPrimaryKey>false</IsPrimaryKey>
+    <IsChecked>true</IsChecked>
+    <IsCustom>true</IsCustom>
+    <IsRawOnly>false</IsRawOnly>
+    <FieldAggregationType>None</FieldAggregationType>
+    <ExecutionNo>0</ExecutionNo>
+    <SubTypeName>SCD Type II Hash Key</SubTypeName>
+    <Locked>false</Locked>
+    <LockedOnStaging>false</LockedOnStaging>
+    <HashingAlgorithm>Default</HashingAlgorithm>
+  </DataFields>
+  <DataFields>
+    <DataFieldId>16334309-050e-4240-af10-c076ca19f8f0</DataFieldId>
+    <DataTableId>7753b7e8-3e8f-4eac-9dac-cb6e16edfbec</DataTableId>
+    <SeqNo>16</SeqNo>
+    <Name>SCD From DateTime</Name>
+    <OrigName>SCD From DateTime</OrigName>
+    <DataType>datetime</DataType>
+    <StagingName>SCD From DateTime</StagingName>
+    <BaseType>datetime</BaseType>
+    <OrigDataType>datetime</OrigDataType>
+    <CharLength>0</CharLength>
+    <NumericScale>0</NumericScale>
+    <NumericPrecision>0</NumericPrecision>
+    <IsPrimaryKey>false</IsPrimaryKey>
+    <IsChecked>true</IsChecked>
+    <IsCustom>true</IsCustom>
+    <IsRawOnly>false</IsRawOnly>
+    <FieldAggregationType>None</FieldAggregationType>
+    <ExecutionNo>0</ExecutionNo>
+    <SubTypeName>SCD From DateTime</SubTypeName>
+    <Locked>false</Locked>
+    <LockedOnStaging>false</LockedOnStaging>
+    <HashingAlgorithm>Default</HashingAlgorithm>
+  </DataFields>
+  <DataFields>
+    <DataFieldId>3fc8fa67-cfb2-4bf3-90c0-68eb96d2d181</DataFieldId>
+    <DataTableId>7753b7e8-3e8f-4eac-9dac-cb6e16edfbec</DataTableId>
+    <SeqNo>17</SeqNo>
+    <Name>SCD To DateTime</Name>
+    <OrigName>SCD To DateTime</OrigName>
+    <DataType>datetime</DataType>
+    <StagingName>SCD To DateTime</StagingName>
+    <BaseType>datetime</BaseType>
+    <OrigDataType>datetime</OrigDataType>
+    <CharLength>0</CharLength>
+    <NumericScale>0</NumericScale>
+    <NumericPrecision>0</NumericPrecision>
+    <IsPrimaryKey>false</IsPrimaryKey>
+    <IsChecked>true</IsChecked>
+    <IsCustom>true</IsCustom>
+    <IsRawOnly>false</IsRawOnly>
+    <FieldAggregationType>None</FieldAggregationType>
+    <ExecutionNo>0</ExecutionNo>
+    <SubTypeName>SCD To DateTime</SubTypeName>
+    <Locked>false</Locked>
+    <LockedOnStaging>false</LockedOnStaging>
+    <HashingAlgorithm>Default</HashingAlgorithm>
+  </DataFields>
+  <DataFields>
+    <DataFieldId>eb8a209d-51d7-4915-a9ca-cb4fb848f5a2</DataFieldId>
+    <DataTableId>7753b7e8-3e8f-4eac-9dac-cb6e16edfbec</DataTableId>
+    <SeqNo>18</SeqNo>
+    <Name>SCD Is Current</Name>
+    <OrigName>SCD Is Current</OrigName>
+    <DataType>bigint</DataType>
+    <StagingName>SCD Is Current</StagingName>
+    <BaseType>bigint</BaseType>
+    <OrigDataType>bigint</OrigDataType>
+    <CharLength>0</CharLength>
+    <NumericScale>0</NumericScale>
+    <NumericPrecision>0</NumericPrecision>
+    <IsPrimaryKey>false</IsPrimaryKey>
+    <IsChecked>true</IsChecked>
+    <IsCustom>true</IsCustom>
+    <IsRawOnly>false</IsRawOnly>
+    <FieldAggregationType>None</FieldAggregationType>
+    <ExecutionNo>0</ExecutionNo>
+    <SubTypeName>SCD Is Current</SubTypeName>
+    <Locked>false</Locked>
+    <LockedOnStaging>false</LockedOnStaging>
+    <HashingAlgorithm>Default</HashingAlgorithm>
+  </DataFields>
+  <DataFields>
+    <DataFieldId>de4ca888-e3b1-4750-82bd-c009f9e1ba94</DataFieldId>
+    <DataTableId>7753b7e8-3e8f-4eac-9dac-cb6e16edfbec</DataTableId>
+    <SeqNo>19</SeqNo>
+    <Name>SCD Is TombStone</Name>
+    <OrigName>SCD Is TombStone</OrigName>
+    <DataType>bigint</DataType>
+    <StagingName>SCD Is TombStone</StagingName>
+    <BaseType>bigint</BaseType>
+    <OrigDataType>bigint</OrigDataType>
+    <CharLength>0</CharLength>
+    <NumericScale>0</NumericScale>
+    <NumericPrecision>0</NumericPrecision>
+    <IsPrimaryKey>false</IsPrimaryKey>
+    <IsChecked>true</IsChecked>
+    <IsCustom>true</IsCustom>
+    <IsRawOnly>false</IsRawOnly>
+    <FieldAggregationType>None</FieldAggregationType>
+    <ExecutionNo>0</ExecutionNo>
+    <SubTypeName>SCD Is TombStone</SubTypeName>
+    <Locked>false</Locked>
+    <LockedOnStaging>false</LockedOnStaging>
+    <HashingAlgorithm>Default</HashingAlgorithm>
+  </DataFields>
   <DataTables>
     <DataTableId>7aeec1c1-f7c1-4d59-83ba-825d978db5e6</DataTableId>
     <SqlServerConnectionId>91817aeb-e84d-42bf-928a-9bcad4e96a71</SqlServerConnectionId>
@@ -4232,7 +4400,7 @@
     <Locked>false</Locked>
     <LockedOnStaging>false</LockedOnStaging>
     <TruncateRawBeforeTransfere>true</TruncateRawBeforeTransfere>
-    <TruncateValidBeforeTransfere>true</TruncateValidBeforeTransfere>
+    <TruncateValidBeforeTransfere>false</TruncateValidBeforeTransfere>
     <TruncateRawAfterCleansing>false</TruncateRawAfterCleansing>
     <KeepErrorsAndWarnings>false</KeepErrorsAndWarnings>
     <ShowControlFields>false</ShowControlFields>
@@ -4365,7 +4533,7 @@
     <Version>17.12.13.64</Version>
     <CreatedVersion>17.12.13.64</CreatedVersion>
     <ImportedFromProjectVersion>0</ImportedFromProjectVersion>
-    <ImportedDateTime>9999-12-31T23:59:59.997+01:00</ImportedDateTime>
+    <ImportedDateTime>9999-12-31T23:59:59.9999999+01:00</ImportedDateTime>
     <DefaultRelationshipType>Relation</DefaultRelationshipType>
     <PostFixObjects>false</PostFixObjects>
     <UseSSIS>false</UseSSIS>
@@ -4741,6 +4909,15 @@
     <ApplyOnRawTable>false</ApplyOnRawTable>
     <Locked>false</Locked>
   </DataManTableIndexs>
+  <DataManTableIndexs>
+    <DataManTableIndexId>68e20d3e-2a3d-4765-b2ca-99c7e2ae9229</DataManTableIndexId>
+    <DataManTableId>7753b7e8-3e8f-4eac-9dac-cb6e16edfbec</DataManTableId>
+    <Name>AutoIndex</Name>
+    <IndexTypeName>NonClustered</IndexTypeName>
+    <IsSuggestedIndex>true</IsSuggestedIndex>
+    <ApplyOnRawTable>true</ApplyOnRawTable>
+    <Locked>false</Locked>
+  </DataManTableIndexs>
   <DataManTableIndexFields>
     <DataManTableIndexFieldId>19fe3454-a8fd-45d3-a7fa-3d20bbf8818f</DataManTableIndexFieldId>
     <DataManTableIndexId>f62b5ca4-dc34-4176-b010-45480ed27021</DataManTableIndexId>
@@ -4753,6 +4930,14 @@
     <DataManTableIndexFieldId>b2055b26-998f-4223-99c6-c2157e853295</DataManTableIndexFieldId>
     <DataManTableIndexId>88ed7b92-a581-4eaf-b02f-f25ada6a0855</DataManTableIndexId>
     <DataFieldId>934950db-5ac0-496d-ba2e-a4c254453271</DataFieldId>
+    <SortOrder>Ascending</SortOrder>
+    <SeqNo>0</SeqNo>
+    <Locked>false</Locked>
+  </DataManTableIndexFields>
+  <DataManTableIndexFields>
+    <DataManTableIndexFieldId>8c5295af-35b3-43ac-ba4a-b3e84b52daf7</DataManTableIndexFieldId>
+    <DataManTableIndexId>68e20d3e-2a3d-4765-b2ca-99c7e2ae9229</DataManTableIndexId>
+    <DataFieldId>d2d580b0-c12d-45b9-a3d5-45d37fbde0c6</DataFieldId>
     <SortOrder>Ascending</SortOrder>
     <SeqNo>0</SeqNo>
     <Locked>false</Locked>
@@ -4977,11 +5162,11 @@
     <IncrementalTargetBasedEnabled>false</IncrementalTargetBasedEnabled>
     <IncrementalSourceBasedEnabled>false</IncrementalSourceBasedEnabled>
     <SourceBasedIncrementalDeleteType>None</SourceBasedIncrementalDeleteType>
-    <HistoryEnabled>false</HistoryEnabled>
+    <HistoryEnabled>true</HistoryEnabled>
     <TypeOneUpdateAll>false</TypeOneUpdateAll>
     <PersistValidAsTable>true</PersistValidAsTable>
     <CreateFunctionsWithSchemaBinding>true</CreateFunctionsWithSchemaBinding>
-    <HistoryHandleDeletes>false</HistoryHandleDeletes>
+    <HistoryHandleDeletes>true</HistoryHandleDeletes>
     <PrimaryKeyBehavior>As_Project</PrimaryKeyBehavior>
     <UseLeftOuterJoin>false</UseLeftOuterJoin>
     <IndexBehavior>As_Project</IndexBehavior>
@@ -4993,7 +5178,7 @@
     <BatchDataCleansingEnabled>false</BatchDataCleansingEnabled>
     <BatchSize>100000</BatchSize>
     <SimpleModeBehavior>2</SimpleModeBehavior>
-    <HistoryEnableReincarnations>false</HistoryEnableReincarnations>
+    <HistoryEnableReincarnations>true</HistoryEnableReincarnations>
     <HistoryIsValidFromLoad>false</HistoryIsValidFromLoad>
     <HistoryEnableTypeIINullsAsTypeI>false</HistoryEnableTypeIINullsAsTypeI>
   </TableSettings>
@@ -5029,6 +5214,57 @@
     <DataManTableIndexId>88ed7b92-a581-4eaf-b02f-f25ada6a0855</DataManTableIndexId>
     <DataFieldId>e346a10e-de29-41e8-8828-be053b428f2c</DataFieldId>
   </DataManTableIncludeFields>
+  <HistoryRules>
+    <HistoryRuleId>9daf0a60-68e6-4136-a445-69942cb65845</HistoryRuleId>
+    <DataTableId>7753b7e8-3e8f-4eac-9dac-cb6e16edfbec</DataTableId>
+  </HistoryRules>
+  <HistoryKeyFields>
+    <HistoryKeyFieldId>520bbea1-136e-4b67-b387-2df8a9cd85bd</HistoryKeyFieldId>
+    <HistoryRuleId>9daf0a60-68e6-4136-a445-69942cb65845</HistoryRuleId>
+    <DataFieldId>d2d580b0-c12d-45b9-a3d5-45d37fbde0c6</DataFieldId>
+  </HistoryKeyFields>
+  <HistoryTypeFields>
+    <HistoryTypeTwoId>ea1f3f67-d607-4dc4-8b0c-aaa9babad505</HistoryTypeTwoId>
+    <HistoryRuleId>9daf0a60-68e6-4136-a445-69942cb65845</HistoryRuleId>
+    <DataFieldId>132792cd-c48a-4ed1-a1f7-3e2209e7fd0e</DataFieldId>
+    <HistoryType>Type_II</HistoryType>
+  </HistoryTypeFields>
+  <HistoryTypeFields>
+    <HistoryTypeTwoId>a5a20d49-3537-495a-a97c-036a180cb2d8</HistoryTypeTwoId>
+    <HistoryRuleId>9daf0a60-68e6-4136-a445-69942cb65845</HistoryRuleId>
+    <DataFieldId>d3dae8e7-5076-4caa-920b-3f551e648ebd</DataFieldId>
+    <HistoryType>Type_II</HistoryType>
+  </HistoryTypeFields>
+  <HistoryTypeFields>
+    <HistoryTypeTwoId>311e8cbb-30cf-4800-b8bc-3ddace42168c</HistoryTypeTwoId>
+    <HistoryRuleId>9daf0a60-68e6-4136-a445-69942cb65845</HistoryRuleId>
+    <DataFieldId>d45c9e7f-892a-4560-a166-45a25cf697ff</DataFieldId>
+    <HistoryType>Type_II</HistoryType>
+  </HistoryTypeFields>
+  <HistoryTypeFields>
+    <HistoryTypeTwoId>540dac37-cc23-4bae-b2de-b6146626bd87</HistoryTypeTwoId>
+    <HistoryRuleId>9daf0a60-68e6-4136-a445-69942cb65845</HistoryRuleId>
+    <DataFieldId>84f5e8f6-a462-4f4e-8f18-5a4f66cd2b8b</DataFieldId>
+    <HistoryType>Type_II</HistoryType>
+  </HistoryTypeFields>
+  <HistoryTypeFields>
+    <HistoryTypeTwoId>529cb851-af46-46ab-b4d0-5fa911e2bf97</HistoryTypeTwoId>
+    <HistoryRuleId>9daf0a60-68e6-4136-a445-69942cb65845</HistoryRuleId>
+    <DataFieldId>97739245-0153-4218-8dd6-6259b160cb80</DataFieldId>
+    <HistoryType>Type_II</HistoryType>
+  </HistoryTypeFields>
+  <HistoryTypeFields>
+    <HistoryTypeTwoId>eacf9c9a-5a55-4181-9504-1143813c7ee8</HistoryTypeTwoId>
+    <HistoryRuleId>9daf0a60-68e6-4136-a445-69942cb65845</HistoryRuleId>
+    <DataFieldId>18fbfa1b-a8a3-4519-b577-b7676bb68395</DataFieldId>
+    <HistoryType>Type_II</HistoryType>
+  </HistoryTypeFields>
+  <HistoryTypeFields>
+    <HistoryTypeTwoId>74add266-0080-4c47-ad89-70aea710d3db</HistoryTypeTwoId>
+    <HistoryRuleId>9daf0a60-68e6-4136-a445-69942cb65845</HistoryRuleId>
+    <DataFieldId>63845cec-c32c-4783-87be-1fbe25775cda</DataFieldId>
+    <HistoryType>Type_II</HistoryType>
+  </HistoryTypeFields>
   <SSISServerServices>
     <SSISServerServiceId>7013d785-995b-49df-b990-2ef12fd69731</SSISServerServiceId>
     <SqlServerConnectionId>91817aeb-e84d-42bf-928a-9bcad4e96a71</SqlServerConnectionId>
